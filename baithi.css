@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+{margin: 0;padding: 0}
+.section1 {background-image:url(images/hero1.jpeg);background-size: cover;height: 100vh;padding: 30px 30px}
+.nav .navmenu {float: left;list-style-type: none;padding-top: 10px;;text-transform: uppercase}
+.nav .navmenu li{display: inline;padding: 0 70px;font-weight: 500; color: blue;font-family: "Lucida Console", "Courier New", monospace;font-size: 20px}
+.section1 .content1{text-align: center;padding-top: 200px;font-family: "Rockwell";color: #003366  ;font-size: 18px}
+.a1{padding: 10px 30px; border: none;background-color: aqua;color: black}
+.a1:hover{background-color: blue}
+.section2 .About{text-align: center; font-weight: 400;text-transform: uppercase;text-shadow: 2px 2px  blue}
+*{box-sizing: border-box}
+.box{float: left;width: 50%;padding: 200px}
+.box6{float: right;width: 50%;padding: 250px}
+.clearfix:after{content:".";clear: both;display: table}
+img{border-radius: 20px}
+.gioithieu h1{font-family:"Rockwell";color:skyblue;font-size: 38px}
+.clearfix1{wildth:50%; padding: 200px}
+.b1:after{content: none;clear: both;display: table}
+.section4 h1{text-transform: uppercase;color: white;font-family:"Lucida Console", "Courier New" }
+.clearfix2:after{content:".";clear: both;display: table}
+.section5{text-align: center}
+.section6{text-align: center;font-family: "Open Sans";background-color: white}
+.section6 h1{text-align: center}
+.newform{width: 500px; margin: 30px auto;background-color: #fff; border: solid 1px #ccc;padding: 20px 10px}
+.float-label-field{border: none;outline: none;position: relative;margin: 0 0 20px 0;padding: 0; box-sizing: border-box}
+.float-label-field input {border: none;outline: none;padding: 5px 5px 8px 0;width: 100%;font-size: 18px;border-bottom: solid 1px #efefef}
+.float-label-field label{opacity: 0.5; position: absolute;top: 10px;left: 0px;transition: all 0.2s ease;font-size: 18px}
+.box1{float: left;width: 50%;padding: 200px}
+.box1 h1{font-family:"Rockwell";color: white;font-size: 38px}
+.box2{float: right;width:50%;padding: 125px}
+.clearfix2:after{content:".";visibility: hidden;display: blockc;clear: both}
+.box3{float: none; width: 100%;padding: 200px}
+.button{background-color: gray;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
+.box3 h1{text-align: center;text-transform: uppercase;color: white;font-weight: 400}
+.box4{width: 100%; padding: 200px}
+.clearfix4 h1{color: skyblue; font-size: 26px;}
+.clearfix4 h2{color: skyblue;font-size: 18px}
+.clearfix4 p{color: white;font-size: 22px; font-family: "Rockwell" }
+.box5{width:100%;padding: 200px}
+.clearfix5 h1{color: skyblue; font-size: 30px;}
+.clearfix5 h2{color: skyblue;font-size: 18px}
+.clearfix5 p{color: white;font-size: 24px; font-family: "Rockwell"}
+.section7 h1{color: skyblue; font-size: 30px;text-align: center;}
+.section7 img{margin: 100px 100px}
+.section9 h1{color: black; font-family: "Lucida Console", "Courier New"; font-weight: 500;text-transform: uppercase;text-align: center}
+.section9{background-image: url(images/simon-berger-twukN12EN7c-unsplash.jpg);background-size: cover;height: 100vh;padding: 30px 30px;-webkit-animation:kenburns-bottom 5s ease-out infinite both;animation:kenburns-bottom 5s ease-out infinite both}
+.box7 h2{text-align:center; font-weight:400;font-family:"Rockwell";font-size: 30px;padding-top:70px}
+.newform{width: 500px; margin: 30px auto;background-color: #fff; border: solid 1px #ccc;padding: 20px 10px}
+.float-label-field{border: none;outline: none;position: relative;margin: 0 0 20px 0;padding: 0; box-sizing: border-box}
+.float-label-field input {border: none;outline: none;padding: 5px 5px 8px 0;width: 100%;font-size: 18px;border-bottom: solid 1px #efefef}
+.float-label-field label{opacity: 0.5; position: absolute;top: 10px;left: 0px;transition: all 0.2s ease;font-size: 18px}
+@import url(https://fonts.googleapis.com/css?family=BenchNine:700);
+.snip1582 {background-color: #c47135;border: none;color: #ffffff;cursor: pointer;display: inline-block;font-family:'BenchNine', Arial, sans-serif;font-size: 1em;font-size: 22px;line-height: 1em;margin: 15px 40px;outline:none;padding: 12px 40px 10px;position: relative;text-transform: uppercase;font-weight: 700;}
+.snip1582:before,
+.snip1582:after {border-color: transparent;-webkit-transition: all 0.25s;transition: all 0.25s;border-style: solid border-width: 0;content: "";height: 24px;position: absolute;width: 24px;}
+.snip1582:before {border-color: #c47135;border-top-width: 2px;left: 0px;top: -5px;}
+.snip1582:after {border-bottom-width: 2px;border-color: #c47135;bottom: -5px;right: 0px;}
+.snip1582:hover,
+.snip1582.hover {background-color: #c47135;}
+.snip1582:hover:before,
+.snip1582.hover:before,
+.snip1582:hover:after,
+.snip1582.hover:after {height: 100%;width: 100%;}
+.section10{text-align: center}
+.box8{width: 100%; padding: 20px}
+.box8 h4{ font-size:25px;font-family: "Rockwell"}
+@-webkit-keyframes kenburns-bottom{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);-webkit-transform-origin:50% 84%;transform-origin:50% 84%}100%{-webkit-transform:scale(1.25) translateY(15px);transform:scale(1.25) translateY(15px);-webkit-transform-origin:bottom;transform-origin:bottom}}@keyframes kenburns-bottom{0%{-webkit-transform:scale(1) translateY(0);transform:scale(1) translateY(0);-webkit-transform-origin:50% 84%;transform-origin:50% 84%}100%{-webkit-transform:scale(1.25) translateY(15px);transform:scale(1.25) translateY(15px);-webkit-transform-origin:bottom;transform-origin:bottom}}
